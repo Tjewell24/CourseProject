@@ -7,8 +7,7 @@ namespace Calculating_AVERAGES
         static void Main(string[] args)
         {
             int i, n, sum = 0;
-            double avg;
-            string myGpa;
+            double avg;         
             Console.Write("Please Input 10 positive numbers: ");
             for (i = 1; i <= 10; i++)
             {
@@ -40,18 +39,7 @@ namespace Calculating_AVERAGES
             {
                 Console.WriteLine("F");
             }
-
-
-
-
-
-
-
-
-               
-
                 Console.Write("The sum of 10 numbers is : {0}\nThe Average is : {1}\n", sum, avg);
-
             }
         }
     }

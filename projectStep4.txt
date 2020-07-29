@@ -1,0 +1,64 @@
+  ##HIGH LEVEL REQUIREMENTS 
+  
+  Feature: Counter for beer
+  
+ The Counter is for one user. The user will be able to click a button making a counter go up.
+ Once a user has finished a beverage he will be able to click to the button. The button will keep count of how many times its pressed.
+ 
+ Scenario Outline: User press button. Counter adds.
+ 
+
+ User will open application
+ Be presented with list of beers
+ User will choose beer
+ 
+Given upon application opening up:
+
+ | Beer         | Percantage |
+ | Budlight     | 4.2        |
+ | Miller       | 4.3        |
+ | Busch        | 4.3        |
+ | Natural Light| 4.6        |
+ | Corona       | 4.5        |
+ 
+ 
+ 
+ User will click Counter tab
+ Click the button
+ Displays the number of times clicked
+ 
+ Scenario: All done
+ Given user is finished clicking
+ * user has count
+  When user is satisfied with count
+  Then user does not need counter
+  
+  Scenario: Profile 
+  Given user is done counting
+  Create profile
+  User can create profile 
+  
+  Given profile tabs
+  Given completion info
+  When user hits save
+  Then his profile with beer clicks should be saved
+  
+  Given user has created profile
+  Given user wants to connect with friends profile
+  when they add profile
+  They should become friends 
+  
+  Given if user has completed clicking counter
+  Given if user has made profile
+  Given if user can upload picture
+  Then picture should be uploaded
+  
+  Given picture is uploaded
+  When he returns to clicker
+  He should see his pictures by his clicker.
+  
+  
+  
+  
+  
+ 

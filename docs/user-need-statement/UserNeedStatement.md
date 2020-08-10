@@ -1,20 +1,18 @@
-#User Need Statement
+#HIGH-Level Requirements
 This project is a project for the MSSA program that accomplishes creating our own application as a single developer. 
 
-#Overview
+#MVP
 
-The purpose of this project is the development of an application that allows its users to track the quantity of an alcoholic beverage. In addition to a clicker that tracks the amount consumed, the application will include a database of todays top brand of alcohol with their percantages of alcohol. So, not only will the users be able to track their quantity but also see the total percantage amount they have bought.
+The applications minimum-viable product must have a interface that allows the user to click a button and be able to count. The user will need to be able to post that through the web that allows other users to see the clicks given. IF there is no counter there really is no app considering the app will be called "beer counter". There also needs to be the ability to choose what type of beer is being drank. So, todays top beers in some sort of database.
 
-#Scope of Work
+#FULL
 
-Below are the top-level goals of this project with goal breakdown.
+The app should have the ability to click on a beer type and click a button to indicate a beer consumed. The user should be able to make a profile and be able to store data for the app previously used. It also should allow users to be able to communicate and chat on the application to "one up each other". The user should be able to access the app on their mobile phones
 
+#STRETCH
 
-#Top Level Goals
-
--Provide the ability to upload pictures to an interface
--Create a graphical application that allows user to click a button, making a counter, and be able to store that data.
--Upload data pertaining to todays best selling alcohol on todays shelfs
--Ability to connect with other users
+- User can upload pictures 
+- Have the ability to calculate the percentage/amount of alcohol they consumed, body weight, and let the user know their BAC (blood alcohol content)
+- The application would be nice to have a list of social drinking games and how to instructions to play them. 
 
  

@@ -1,0 +1,15 @@
+PRODUCTS
+productid             int
+productname           nvarchar(40)
+prodcutcalories       int
+productpercentage     int
+
+
+
+CCUSTOMERS
+customerid        int
+customername      nvarchar(40)
+customerage       int
+customeremail     nvarchar(40)
+customerpassword  nvarchar(40)
+
